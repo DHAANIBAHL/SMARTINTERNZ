@@ -1,0 +1,90 @@
+Project Report
+Utilizing the Like Data Analytics Platform for Road Safety and Accident Analysis in India
+
+1. Problem Definition / Problem Understanding
+1.1 Specify the Business Problem:
+India faces significant challenges in road safety, with over 150,000 fatalities due to road crashes, as reported by the Ministry of Road Transport and Highways. This project aims to leverage Qlik's data analytics platform to analyze diverse data sources for trends, hotspots, and causal factors of road crashes. The goal is to provide actionable insights to stakeholders to inform decisions that enhance road safety and reduce accidents, ultimately saving lives.
+1.2 Business Requirements
+ Data Integration: Integrate heterogeneous data, including traffic data, accident reports, weather, road infrastructure information, and demographic data.
+ Advanced Analytics: Utilize Qlik's advanced analytics to identify accident hotspots, analyze historical trends, and predict future accidents.
+User-Accessible Dashboards: Create interactive dashboards for government authorities, transportation agencies, and road safety organizations.
+Real-Time Data Analysis: Enable real-time data analysis for timely decision-making.
+Customizable Insights: Allow stakeholders to customize insights according to their requirements.
+1.3 Literature Survey
+Traffic Volume and Accident Rates Studies: Establish a correlation between increased traffic volume and accident rates.
+Weather Condition Impacts: Analyze how adverse weather like rain or fog contributes to accident risks.
+Demographic Factors: Study the impact of demographic factors such as age, gender, and socioeconomic status on accident patterns.
+Predictive Modeling Techniques: Review advanced predictive modeling techniques for forecasting accidents using historical and real-time data.
+1.4 Social or Business Impact
+The successful implementation of this project is expected to have significant social impacts:
+Save Lives: Identifying and addressing causes of accidents can save thousands of lives.
+Improve Public Health: Reducing accidents will decrease serious injuries, improving public health.
+Economic Benefit: Enhanced road safety reduces healthcare costs, insurance premiums, and improves logistics efficiency.
+Policy and Infrastructure Improvements: Data-driven insights can inform policy reforms and infrastructure improvements to enhance road safety and traffic management.
+2. Data Collection
+2.1 Get Dataset
+Datasets were collected from various authoritative sources to ensure comprehensive and accurate analysis:
+Traffic Data: Collected from transportation departments and traffic monitoring systems, providing details on traffic volumes, vehicle types, and traffic patterns.
+Accident Reports: Sourced from police and emergency services, detailing the circumstances, location, time, causes, and outcomes of accidents.
+Weather Data: Derived from meteorological departments, including historical and real-time weather such as temperature, precipitation, visibility, and wind speed.
+Road Infrastructure Information: Provided by municipal and road maintenance authorities, including road conditions, signage, speed limits, and construction zones.
+Demographic Information: Collected from census data, offering insights into population characteristics in accident-prone areas.
+2.2 Understanding the Dataset
+Traffic Data: Includes date, time, location coordinates, vehicle count, and vehicle types.
+Accident Reports: Details on date, time, location, type of accident, factors involved, outcomes, weather, and demographics.
+Weather Data: Temperature, precipitation, visibility, wind speed, and their impact on accidents.
+Road Infrastructure Information: Type of road, state of the road, road signs, speed limits.
+Demographic Information: Age, sex, occupation, and socioeconomic status.
+2.3 Connect Data with Like Sense
+Data Ingestion: Import datasets into the Like Sense environment.
+Data Linking: Relate data from different datasets using common keys like location coordinates or timestamps.
+Data Refresh: Set up automatic data refresh schedules.
+Quality Checks: Monitor data completeness and accuracy through quality checks.
+3. Data Preparation
+3.1 Data Preparation for Visualization
+Data Cleaning: Remove inconsistencies, duplicates, and irrelevant data points.
+Data Transformation: Standardize data formats and structures for compatibility.
+Data Enrichment: Aggregate datasets and add geospatial data and demographic information.
+Data Validation: Ensure data accuracy and reliability by cross-verifying with authentic sources.
+4. Data Visualizations
+4.1 Number of Unique Visualizations
+1. Heat Maps: Visualize accident hotspots on geographical maps.
+2. Trend Lines: Show accident trends over time, highlighting seasonal variations and peak times.
+3. Bar Charts: Compare types and frequencies of accidents.
+4. Scatter Plots: Correlate traffic volume with accident rates.
+5. Geospatial Maps: Overlay accidents with infrastructure and demographic data.
+6. Weather Overlay Maps: Correlate weather with accident occurrences.
+7. Accidents due to Drunken Driving: Show trends of drunken driving accidents.
+8. State-wise Mobile Phone Usage: Depict mobile phone usage while driving across states.
+9. Contribution of Vehicles* Show the contribution of different vehicle types to accidents.
+10. Correlation - Speeding and Number Of Accidents: Analyze the relationship between speeding and accidents.
+11. Accidents by Weather Type: Display the distribution of accidents under various weather.
+12. Minors Injured Countrywide: Count and distribution of minors injured in road accidents.
+13. Pedestrians Killed: Gender: Analyze pedestrian fatalities by gender.
+14. Pedestrians Killed: Age Groups: Display pedestrian fatalities across different age groups.
+15. Road Users Killed: Vehicle Distribution: Show the distribution of fatalities among different road users.
+5. Dashboard
+5.1 Responsive and Dashboard Design
+The dashboard was designed for user-friendliness and accessibility:
+Responsive Design: Compatible with desktops, tablets, and smartphones.
+Intuitive Interface: Easy navigation with filtering and drill-down features.
+View Personalization: Users can customize the dashboard to their needs.
+Real-Time Data Integration: Ensure up-to-date information for timely decisions.
+Visual Consistency: Maintain a consistent visual style across charts and graphs.
+6. Story
+6.1 Story Creation
+A compelling story was developed to guide stakeholders through the analysis findings:
+Introduction: Overview of road safety challenges in India and project objectives.
+Insights: Key findings from data analysis, including accident hotspots, trends, and predictive modeling results.
+Actionable Recommendations: Specific suggestions for targeted interventions, policy reforms, and awareness campaigns.
+Conclusion: Emphasize the potential impact of data-driven road safety measures and call for collaborative efforts.
+ 7.Performance Testing Measure
+7.1 To ensure the reliability and efficiency of the Like analytics platform:
+Load Testing: simulates high data loads to evaluate performance under peak conditions.
+Response Time Measurement: Monitor query and visualization load times to optimize response times.
+Stress Testing: Assess platform stability and robustness by exceeding normal operational capacity.
+Scalability Testing: Ensure the platform can scale with increasing data volumes and user numbers.
+Usability Testing: Gather user feedback to identify and address interface and functionality issues.
+
+Conclusion
+This project leverages Qlik's advanced data analytics capabilities to address road safety in India. By identifying accident hotspots, analyzing trends, and predicting future scenarios, valuable insights are provided to reduce road accidents and save lives. Integrating diverse datasets, creating comprehensive visualizations, and developing an intuitive dashboard equips stakeholders with the necessary tools for informed decision-making. The project's success will be measured by its ability to influence policy decisions, improve road infrastructure, and enhance public awareness of road safety issues. Continuous monitoring and updates will ensure the platform adapts to changing conditions and provides ongoing support for road safety initiatives in India.
