@@ -1,0 +1,1 @@
+This project leverages Qlik Sense's data analytics platform to analyze road safety and accident trends in India. By integrating traffic data, accident reports, weather conditions, road infrastructure, and demographic data, the system identifies high-risk areas, accident hotspots, and causal factors to provide actionable insights for policymakers and transportation authorities.
